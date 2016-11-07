@@ -1,0 +1,108 @@
+/*
+@name:  style.css
+@description: 定义模板样式
+@require: 
+@author: fuminglee@outlook.com
+*/
+
+
+*{
+	border: 0;
+	margin: 0;
+}
+
+ul{
+	list-style: none;
+}
+
+a{
+	text-decoration: none;
+}
+
+.wraper{
+	width: 100%;
+	height: 1100px;
+	background: url(../img/winter_07.jpg) no-repeat;
+	background-size: 100% 1100px;
+}
+
+.nav_index_winter{
+	height: 200px;
+	width: 100%;
+	padding-top: 30px;
+}
+
+.nav_index_winter ul{
+	height: 132px;
+	// width: 1200px;
+	margin-left: 400px;
+	list-style: none;
+}
+
+.nav_index_winter ul li{
+	float: left;
+	height: 132px;
+	width: 132px;
+	margin: 0 30px;
+}
+
+.nav_index_winter ul li a{
+	background: url(../img/winter_06.png) 0 0 no-repeat;
+	display: block;
+	height: 132px;
+	text-align: center;
+	line-height: 132px;
+	font-size: 14px;
+	color: #fff;
+	font-weight: 900;
+}
+
+.nav_index_winter ul li a:hover{
+	font-size: 20px;
+}
+
+.nav_index_winter .winter_index_active{
+	font-size: 20px;
+}
+
+/*
+.nav_index_winter ul::after{
+	content: '';0
+}
+*/
+
+.wraper .photo_view{
+	height: 710px;
+	line-height: 710px;
+	margin: 0 auto;
+	padding-left: 10%;
+}
+
+.wraper .photo_view div{
+	float: left;
+	margin: 0 50px;
+}
+
+.wraper .photo_view div ul{
+	padding: 0;
+}
+
+.wraper .photo_view div ul li{
+	height: 300px;
+}
+
+.wraper .photo_view .photo_view_center{
+	height: 710px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
